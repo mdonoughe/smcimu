@@ -1,0 +1,5 @@
+# these were obtained by running SeisMaCalibrate on my MacBook Pro
+# SeisMaCalibrate calibration consists of placing the robot on a level surface,
+# and measuring values in three different orientations
+# better results should be possible with better equipment
+[ 0.0039655787762223902, 0.0, 0.0, 0.0, 0.0, 0.0039753528125621145, 0.0, 0.0, 0.0, 0.0, 0.0038306837770542041, 0.0, -0.019946861244398623, 0.013118664281454978, -0.010304539360275809, 1.0]

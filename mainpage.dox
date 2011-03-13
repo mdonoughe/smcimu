@@ -1,0 +1,32 @@
+/**
+\mainpage
+\htmlinclude manifest.html
+
+\b smcimu is a node that publishes the accelerometer data from the applesmc driver in Linux. This requires a MacBook with a sudden motion sensor.
+
+By default, data is read from the first /sys/devices/platform/applesmc.*/position file. This is adjustable by setting the "path" parameter.
+
+The "calibration_file" parameter is used to load different calibration values. The defaults are contained in info/calibration.yaml. It's a 4x4 transformation matrix.
+
+"samples" and "rate" determine how often the data is sampled. Data is read samples * rate times per second, and the average value of those samples is returned. This means that the number of Imu messages per second is rate.
+
+<!-- 
+Provide an overview of your package.
+-->
+
+
+\section codeapi Code API
+
+<!--
+Provide links to specific auto-generated API documentation within your
+package that is of particular interest to a reader. Doxygen will
+document pretty much every part of your code, so do your best here to
+point the reader to the actual API.
+
+If your codebase is fairly large or has different sets of APIs, you
+should use the doxygen 'group' tag to keep these APIs together. For
+example, the roscpp documentation has 'libros' group.
+-->
+
+
+*/

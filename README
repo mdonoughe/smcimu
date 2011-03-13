@@ -1,0 +1,1 @@
+smcimu is a ROS node that publishes your applesmc accelerometer data as an IMU. See mainpage.dox for more information.
